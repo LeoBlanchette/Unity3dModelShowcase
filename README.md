@@ -29,7 +29,7 @@ It installs with Cinemachine and Postprocessing V2 as dependencies. Unity versio
 3. When satisfied, create a build of the scene, and play it as a typical Unity app. 
 4. Record the turntable using video software such as OBS Studio (https://obsproject.com/). You may also pause the turntable using [Spacebar] and take a screenshot as needed. 
 
-### Camera positioning. 
+### Camera positioning
 
 In the scene, see Showcase/Cameras.
 The three virtual cameras under that are:
@@ -38,7 +38,7 @@ The three virtual cameras under that are:
 - CM vcam_2
 - CM vcam_3
 
-Beneath that you can find the system of Follow/Lookat targets Cinemachine depends on. In the scene, they can be found at:
+Beneath that you can find the system of Follow/LookAt targets Cinemachine depends on. In the scene, they can be found at:
 
 Showcase/Cameras/CameraTracking/Cam_<x>/.
   
