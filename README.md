@@ -32,9 +32,9 @@ It installs with Cinemachine and Postprocessing V2 as dependencies. Unity versio
 In the scene, see Showcase/Cameras.
 The three virtual cameras under that are:
 
-CM vcam_1
-CM vcam_2
-CM vcam_3
+- CM vcam_1
+- CM vcam_2
+- CM vcam_3
 
 Beneath that you can find the system of Follow/Lookat targets Cinemachine depends on. In the scene, they can be found at:
 
