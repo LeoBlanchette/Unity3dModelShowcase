@@ -1,2 +1,9 @@
-# Unity3dModelShowcase
-A project for showcasing 3d models and characters. Created for Unity game mods and showcasing products on the asset store. 
+# Unity 3d Model Showcase
+
+This is a simple and fast solution to displaying 3d models for various needs. Some common needs that I have:
+
+- Turntables recorded for YouTube
+- Screenshots for game mods. 
+- Unity Asset store. 
+
+It installs with Cinemachine as a dependency. We use HDR maps to achieve the high-quality product shot render with minimal effort. 
