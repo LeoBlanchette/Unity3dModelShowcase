@@ -6,16 +6,32 @@ namespace LB3D
 {
     public class Turntable : MonoBehaviour
     {
-        // Start is called before the first frame update
+        public float rotateSpeed = 5;
+
+        private bool doRotate = false;
         void Start()
         {
 
         }
 
-        // Update is called once per frame
         void Update()
         {
+            CheckInput();
+            RotateTurntable();
+        }
 
+        public void RotateTurntable()
+        {
+            if (!doRotate) return;
+            transform.Rotate(Vector3.up * Time.deltaTime * rotateSpeed);
+        }
+
+        public void CheckInput()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                doRotate = !doRotate;
+            }
         }
     }
 }
