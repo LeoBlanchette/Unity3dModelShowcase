@@ -7,9 +7,16 @@ This is a simple and fast solution to displaying 3d models for various needs. So
 - Unity Asset Store. 
 - Finding fulfillment in life. 
 
+### Installation
+It installs as a complete Unity project. Simply do...
+```
+git clone https://github.com/LeoBlanchette/Unity3dModelShowcase.git 
+```
+...in a directory of your choosing. Then use the Unity "Add project from disk" option to open it.
+
 It installs with Cinemachine and Postprocessing V2 as dependencies. Unity version 2021.3. We use HDR maps to achieve a high-quality product shot render with minimal effort. (https://polyhaven.com/a/studio_small_09)
 
-## Controls
+### Controls
 1. Spacebar toggles the turntable rotation.
 2. Tab switches cameras.
 
