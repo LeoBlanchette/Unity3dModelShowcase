@@ -7,6 +7,8 @@ This is a simple and fast solution to displaying 3d models for various needs. So
 - Unity Asset Store. 
 - Finding fulfillment in life. 
 
+See example screenshot below.
+
 ### Installation
 It installs as a complete Unity project. Simply do...
 ```
@@ -42,3 +44,4 @@ Showcase/Cameras/CameraTracking/Cam_<x>/.
   
 Adjust the Follow and LookAt gameobjects. Do not adjust the Cam_<x> prefabs.
 
+  ![Screenshot](https://github.com/LeoBlanchette/Unity3dModelShowcase/blob/main/Assets/LB3D/Textures/example_screenshot.png)
